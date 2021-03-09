@@ -80,4 +80,5 @@ if(message.value == null || message.value.length == 0 || /^\s+$/.test(message.va
 if (!(checkbox[0].checked || checkbox[1].checked) || checkbox[2].checked||checkbox[3].checked) {
     alert("Please Select typecard");
     return false;
+}
 };
